@@ -35,7 +35,7 @@ function App() {
               value={value.status} type="checkbox" name="" id="" />
               <p>{value.text}</p>
             <div className="right">
-              <i className="fas fa-times"></i>
+              <i onClick={()=>setToDos([])} className="fas fa-times"></i>
               </div>
             </div>
             </div>
